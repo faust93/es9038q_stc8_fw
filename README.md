@@ -47,7 +47,7 @@ Upon connecting keep GND or VCC floating and connect it AFTER launching stc8prog
 
 **Register values**
 
-~~c
+~~~c
 __CODE uint8_t es9038reg[RegNum][2]={
     {ES9038Q2M_SYSTEM_SETTING, 0x01},
     {ES9038Q2M_INPUT_CONFIG, 0xCC}, //0xCC 32-bit, I2S, DSD, SPD, I2S auto-select
@@ -71,7 +71,7 @@ __CODE uint8_t es9038reg[RegNum][2]={
     0x00 - linear phase fast roll-off
 */
 };
-~~
+~~~
 
 Refer to [ES9038Q2M Datasheet](https://manuals.lddb.com/DACs/ESS/ES9038Q2M.pdf) for registers/values
 
