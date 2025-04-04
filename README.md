@@ -37,9 +37,9 @@ Connect CH341 to the following pins:
 
 Upon connecting keep GND or VCC floating and connect it AFTER launching stc8prog to trigger STC8 fw upload mode. Try several times if it does not work at the first try.
 
-~~bash
+~~~bash
 # stc8prog -p /dev/ttyUSB1 -e -f {a full path to}/es9038q_stc8_fw/build/es9038q_stc8_fw.hex
-~~
+~~~
 
 ### FW customization
 
